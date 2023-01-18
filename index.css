@@ -15,6 +15,7 @@
 .header a {
   text-decoration: none;
 }
+
 .my-logo {
   display: flex;
   flex-direction: row;
@@ -114,7 +115,6 @@
   left: calc(50% - 375px / 2);
   top: 100px;
   background: url(assets/images/header-shapes\ mobile.png);
-  
 }
 
 .headline h2 {
@@ -180,7 +180,7 @@
   gap: 16px;
   width: fit-content;
   height: 24px;
- 
+
   /* Inside auto layout */
 
   flex: none;
@@ -230,8 +230,6 @@
   flex: none;
   order: 3;
   flex-grow: 0;
-  
-  
 }
 
 .headline ul {
@@ -240,16 +238,13 @@
   top: 440px;
 }
 
-
-
-
 #twitter {
   position: absolute;
   left: 20%;
   right: 88.27%;
   top: 77.81%;
   bottom: 18.88%;
-  color: #505F79;
+  color: #505f79;
 }
 
 #linkedin {
@@ -258,7 +253,7 @@
   height: 20px;
   left: 89%;
   top: 77.81%;
-  color: #505F79;
+  color: #505f79;
 }
 
 #github {
@@ -267,5 +262,5 @@
   height: 20px;
   left: 150%;
   top: 77.81%;
-  color: #505F79;
+  color: #505f79;
 }
