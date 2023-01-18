@@ -1,0 +1,266 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 50px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.my-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+  box-sizing: border-box;
+}
+
+.my-logo > span {
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 50px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+.dropbtn {
+  border: none;
+  background-color: none;
+}
+
+.dropbtn img {
+  width: 24px;
+  height: 24px;
+  background-color: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover { background-color: #ddd; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content { display: block; }
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px / 2);
+  top: 100px;
+  background: url(assets/images/header-shapes\ mobile.png);
+}
+
+.headline h2 {
+  width: 327px;
+  height: 150px;
+
+  /* Header / 2 */
+
+  font-family: 'Poppins', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.headline p {
+  position: relative;
+  top: -85px;
+  width: 327px;
+  height: 146px;
+
+  /* Body / 2 */
+
+  font-family: 'Poppins', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.headline .Social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 16px;
+  width: fit-content;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-top: -115px;
+}
+
+.headline .Social span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 140px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.headline .Social h2 {
+  font-family: 'Poppins', Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+  width: 130px;
+  height: 24px;
+}
+
+.socil-media-icons {
+  width: 170.17px;
+  height: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.headline ul {
+  list-style: none;
+  position: absolute;
+  top: 440px;
+}
+
+#twitter {
+  position: absolute;
+  left: 20%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+  color: #505f79;
+}
+
+#linkedin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 89%;
+  top: 77.81%;
+  color: #505f79;
+}
+
+#github {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 150%;
+  top: 77.81%;
+  color: #505f79;
+}
