@@ -1,9 +1,10 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-html{
+html {
   overflow-x: hidden;
 }
+
 .header {
   position: absolute;
   left: 0;
@@ -285,7 +286,6 @@ html{
   left: calc(50% - 375px / 2);
   top: 718px;
   background: #e5e5e5;
-  
 }
 
 .card-1 {
@@ -349,7 +349,7 @@ html{
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .details-1 {
@@ -2277,7 +2277,7 @@ button .forth-button {
   gap: 12px;
   width: 327px;
   height: 409px;
-  
+
   /* Inside auto layout */
 
   flex: none;
@@ -2424,6 +2424,7 @@ button .forth-button {
   width: 162px;
   height: 48px;
   background-color: #fff;
+
   /* Primary/B400 */
 
   border: 1px solid #6070ff;
@@ -2828,7 +2829,7 @@ button .forth-button {
 
   /* Body / 1 - Bolder */
 
-  font-family: 'Poppins',  Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
