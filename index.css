@@ -1,3 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+  overflow-x: hidden;
+}
 .header {
   position: absolute;
   left: 0;
@@ -279,6 +285,7 @@
   left: calc(50% - 375px / 2);
   top: 718px;
   background: #e5e5e5;
+  
 }
 
 .card-1 {
@@ -333,7 +340,7 @@
 .project-title-1 {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -342,6 +349,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: 0px;
 }
 
 .details-1 {
@@ -373,7 +381,7 @@
 .details-1 .name .first-project-name {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -409,7 +417,7 @@
 .details-1 .role .first-project-role {
   width: 88px;
   height: 16px;
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -445,7 +453,7 @@
 .details-1 .year .first-project-year {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -459,7 +467,7 @@
 .summary-1 {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -469,7 +477,7 @@
   order: 1;
   flex-grow: 0;
   position: relative;
-  top: 10px;
+  top: -20px;
 }
 
 .languages-1 {
@@ -510,7 +518,7 @@
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -555,7 +563,7 @@
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -603,7 +611,7 @@
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -662,7 +670,7 @@ button:hover {
   top: calc(50% - 48px / 2);
 
   /* Primary/B400 */
-
+  background-color: #fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
@@ -677,7 +685,7 @@ button:hover {
 
   /* Button /Normal */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -775,7 +783,7 @@ button:hover {
   width: 295px;
   height: 80px;
   margin-top: 5px;
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -832,7 +840,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -888,7 +896,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -944,7 +952,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -970,7 +978,7 @@ button:hover {
 
   /* Body / 3 */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -997,7 +1005,7 @@ button:hover {
   gap: 8px;
   width: 203px;
   height: 24px;
-  margin-top: -30px;
+  margin-top: -10px;
 
   /* Inside auto layout */
 
@@ -1033,7 +1041,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1081,7 +1089,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1129,7 +1137,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1193,7 +1201,7 @@ button:hover {
 
   /* Button /Normal */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -1288,7 +1296,7 @@ button:hover {
   width: 295px;
   height: 36px;
   margin-top: 10px;
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1345,7 +1353,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -1401,7 +1409,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -1457,7 +1465,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -1479,11 +1487,11 @@ button:hover {
 .summary-3 {
   width: 295px;
   height: 76px;
-  margin-top: 20px;
+  margin-top: 10px;
 
   /* Body / 3 */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1508,7 +1516,7 @@ button:hover {
   align-items: center;
   padding: 0;
   gap: 8px;
-  margin-top: -27px;
+  margin-top: -17px;
   width: 203px;
   height: 24px;
 
@@ -1546,7 +1554,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1594,7 +1602,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1642,7 +1650,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1703,7 +1711,7 @@ button:hover {
 
   /* Button /Normal */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -1801,7 +1809,7 @@ button:hover {
   width: 295px;
   height: 80px;
   margin-top: 10px;
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1858,7 +1866,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -1916,7 +1924,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -1972,7 +1980,7 @@ button:hover {
 
   /* Caption / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -1998,7 +2006,7 @@ button:hover {
 
   /* Body / 3 */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -2023,7 +2031,7 @@ button:hover {
   align-items: center;
   padding: 0;
   gap: 8px;
-  margin-top: -25px;
+  margin-top: -5px;
   width: 203px;
   height: 24px;
 
@@ -2061,7 +2069,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -2109,7 +2117,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -2157,7 +2165,7 @@ button:hover {
 
   /* Button / Small */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -2183,7 +2191,7 @@ button:hover {
   height: 72px;
 
   /* Inside auto layout */
-
+  margin-top: -20px;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -2218,7 +2226,7 @@ button .forth-button {
 
   /* Button /Normal */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -2250,13 +2258,15 @@ button .forth-button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 114px 24px;
+  padding: 5rem 1.5rem 5rem;
   gap: 24px;
   position: absolute;
   width: 375px;
   height: 1125.15px;
   left: calc(50% - 375px / 2);
   top: 3656px;
+  background-color: #fff;
+  border-top-right-radius: 50px;
 }
 
 .top {
@@ -2267,7 +2277,7 @@ button .forth-button {
   gap: 12px;
   width: 327px;
   height: 409px;
-
+  
   /* Inside auto layout */
 
   flex: none;
@@ -2281,7 +2291,7 @@ button .forth-button {
 
   /* Header / 2 */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -2309,7 +2319,7 @@ button .forth-button {
 
   /* Body / 2 */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -2366,7 +2376,7 @@ button .forth-button {
 
   /* Body / 2 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -2413,7 +2423,7 @@ button .forth-button {
   gap: 10px;
   width: 162px;
   height: 48px;
-
+  background-color: #fff;
   /* Primary/B400 */
 
   border: 1px solid #6070ff;
@@ -2436,7 +2446,7 @@ button .forth-button {
 
   /* Button /Normal */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -2519,6 +2529,7 @@ button .forth-button {
   right: 20px;
   top: calc(8% - 40px / 2);
   border-radius: 8px;
+  background-color: #fff;
 }
 
 #lango button img {
@@ -2538,7 +2549,7 @@ button .forth-button {
 
   /* Body / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2593,7 +2604,7 @@ button .forth-button {
 
   /* Body / 3 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -2652,7 +2663,7 @@ button .forth-button {
 
   /* Body / 3 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -2702,7 +2713,7 @@ button .forth-button {
 
   /* Body / 3 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -2738,7 +2749,7 @@ button .forth-button {
 
   /* Body / 1 - Bolder */
 
-  font-family: 'Poppins' Times, serif;
+  font-family: 'Poppins', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -2763,6 +2774,7 @@ button .forth-button {
   top: calc(-34% - 40px / 2);
   border: none;
   border-radius: 8px;
+  background-color: #fff;
 }
 
 .skill-list .frameworks button .f-image {
@@ -2796,6 +2808,7 @@ button .forth-button {
   left: 81%;
   top: calc(-40% - 40px / 2);
   border-radius: 8px;
+  background-color: #fff;
 }
 
 .skill-list .abilties button .a-image {
@@ -2815,7 +2828,7 @@ button .forth-button {
 
   /* Body / 1 - Bolder */
 
-  font-family: 'Poppins'  Times, serif;
+  font-family: 'Poppins',  Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
