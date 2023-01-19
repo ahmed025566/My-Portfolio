@@ -635,6 +635,16 @@
   flex-grow: 0;
 }
 
+button {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #008cba;
+}
+
 .action button {
   box-sizing: border-box;
 
@@ -655,6 +665,10 @@
 
   border: 1px solid #6070ff;
   border-radius: 8px;
+}
+
+.first-button:hover {
+  color: white;
 }
 
 .action button .first-button {
@@ -1169,6 +1183,10 @@
   border-radius: 8px;
 }
 
+.second-button:hover {
+  color: white;
+}
+
 .card-2 .info-block .action button .second-button {
   width: 100px;
   height: 24px;
@@ -1673,6 +1691,10 @@
 
   border: 1px solid #6070ff;
   border-radius: 8px;
+}
+
+.third-button:hover {
+  color: white;
 }
 
 .action button .third-button {
@@ -2220,6 +2242,10 @@ button .forth-button {
   flex-grow: 0;
 }
 
+.forth-button:hover {
+  color: white;
+}
+
 .About-my-self {
   display: flex;
   flex-direction: column;
@@ -2400,6 +2426,10 @@ button .forth-button {
   flex-grow: 0;
 }
 
+.top .resume:hover {
+  color: white;
+}
+
 .resume-text {
   width: 138px;
   height: 24px;
@@ -2428,4 +2458,372 @@ button .forth-button {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.About-my-self .skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 327px;
+  height: 464.15px;
+  position: relative;
+  top: 80px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.About-my-self ul {
+  list-style: none;
+}
+
+#Programming-languages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 327px;
+  height: 320.15px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#lango {
+  width: 327px;
+  height: 72px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#lango button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  border: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  top: calc(8% - 40px / 2);
+  border-radius: 8px;
+}
+
+#lango button img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 0;
+  right: 0.5px;
+}
+
+#lango .head-text {
+  position: relative;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(20% - 24px / 2);
+
+  /* Body / 1 - Bolder */
+
+  font-family: 'Poppins' Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+#Programming-languages .lango-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  width: 327px;
+  height: 248.15px;
+  box-sizing: border-box;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.lango-list .ja-sc {
+  width: 303px;
+  height: 66.72px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.lango-list .ja-sc .text {
+  position: relative;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  top: calc(30% - 24px / 2 - 0.36px);
+
+  /* Body / 3 - Bolder */
+
+  font-family: 'Poppins' Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N700 */
+
+  color: #253858;
+}
+
+.lango-list .ja-sc .image-1 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: calc(-28% - 48px / 2 - 0.36px);
+  border: 1px solid #fff;
+}
+
+.lango-list .html {
+  width: 303px;
+  height: 66.72px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.lango-list .html .image-2 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px / 2 - 0.36px);
+  border: 1px solid #fff;
+}
+
+.lango-list .html .text {
+  position: relative;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  top: calc(-52% - 24px / 2 - 0.36px);
+
+  /* Body / 3 - Bolder */
+
+  font-family: 'Poppins' Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N700 */
+
+  color: #253858;
+}
+
+.lango-list .css {
+  width: 303px;
+  height: 66.72px;
+
+  /* Neutrals/N10 */
+
+  background: #f7f7f9;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.lango-list .css .image-3 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 22px;
+  top: calc(60% - 48px / 2 - 0.36px);
+  border: 1px solid #fff;
+}
+
+.lango-list .css .text {
+  position: relative;
+  height: 24px;
+  left: 76px;
+  right: 12px;
+  top: calc(35% - 24px / 2 - 0.36px);
+
+  /* Body / 3 - Bolder */
+
+  font-family: 'Poppins' Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N700 */
+
+  color: #253858;
+}
+
+.skill-list .frameworks {
+  width: 327px;
+  height: 72px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.skill-list .frameworks .text {
+  position: relative;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(25% - 24px / 2);
+
+  /* Body / 1 - Bolder */
+
+  font-family: 'Poppins' Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.skill-list .frameworks .f-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 81%;
+  top: calc(-34% - 40px / 2);
+  border: none;
+  border-radius: 8px;
+}
+
+.skill-list .frameworks button .f-image {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 0;
+  right: 0.5px;
+}
+
+.skill-list .abilties {
+  width: 327px;
+  height: 72px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.skill-list .abilties .a-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  border: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 81%;
+  top: calc(-40% - 40px / 2);
+  border-radius: 8px;
+}
+
+.skill-list .abilties button .a-image {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 0;
+  right: 0.5px;
+}
+
+.skill-list .abilties .text {
+  position: relative;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(25% - 24px / 2);
+
+  /* Body / 1 - Bolder */
+
+  font-family: 'Poppins'  Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000;
 }
