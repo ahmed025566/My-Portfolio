@@ -32,7 +32,7 @@
 
 > My Portfolio .
 
-**[Hello-Microverse]** This is the first two sections from my portfolio webstie.
+**[Hello-Microverse]** This is the second two sections from my portfolio webstie.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,9 +54,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- First section with a cool dropdown button. 
+- second section with a cool work cards. 
 - An Introduction about me.
-- A fancy README file
+- A button lead to my resume (will be completed later)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,8 +127,8 @@ You can deploy this project using:
 
 > The following are the future features that will be added to the project.
 
-- [ ] **[It_will_have_a_body_section]**
-- [ ] **[It_will_have_a_navbar_section]**
+- [ ] **[It_will_have_a_contact-form-section]**
+- [ ] **[It_will_have_a_button_leads_To_My_Resume]**
 - [ ] **[It_will_not_take_over_the_world]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
