@@ -1050,7 +1050,7 @@ button:hover {
   width: 21px;
   height: 21px;
   border-radius: 50%;
-  background: #7F8CFF;
+  background: #7f8cff;
   position: absolute;
   top: 55px;
   left: 153px;
@@ -1059,7 +1059,7 @@ button:hover {
 .rectangle4 {
   width: 74.7px;
   height: 17.21px;
-  background: #7F8CFF;
+  background: #7f8cff;
   transform: rotate(-23.18deg);
   position: absolute;
   top: 36px;
@@ -1073,6 +1073,7 @@ button:hover {
   top: 48.75px;
   left: 328px;
 }
+
 .contact-form h3 {
   font-family: 'Poppins', Times, serif;
   font-weight: 2500;
@@ -1094,7 +1095,7 @@ button:hover {
   margin-right: 24px;
   line-height: 28px;
 }
- 
+
 form {
   position: absolute;
   top: 360px;
@@ -1107,7 +1108,7 @@ input {
   display: block;
   width: 327px;
   height: 48px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
   font-family: 'Poppins', Times, serif;
@@ -1117,10 +1118,10 @@ input {
 }
 
 textarea {
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 20px;
-  color: #B3BAC5;
+  color: #b3bac5;
   font-family: 'Poppins', Times, serif;
   padding: 10px;
   margin-left: 24px;
@@ -1131,7 +1132,7 @@ textarea {
   display: inline-block;
   width: 142px;
   height: 48px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   color: #6070ff;
   font-family: 'Poppins', Times, serif;
@@ -1144,7 +1145,7 @@ textarea {
   width: 134px;
   height: 5px;
   border-radius: 10px;
-  background: #0D151E;
+  background: #0d151e;
   position: absolute;
   bottom: 8px;
 }
@@ -1162,7 +1163,7 @@ textarea {
 .rectangle7 {
   width: 76.17px;
   height: 13.63px;
-  background: #7F8CFF;
+  background: #7f8cff;
   transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
   position: absolute;
   bottom: 83px;
