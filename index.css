@@ -10,7 +10,6 @@ html {
   left: 0;
   right: 0;
   top: 44px;
-  bottom: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1029,4 +1028,40 @@ button:hover {
   display: flex;
   align-items: center;
   color: #000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 1.5rem 5rem;
+  box-sizing: border-box;
+  border-top-left-radius: 120px;
+  left: calc(50% - 375px / 2);
+  background: #6070ff;
+  width: 375px;
+  height: 779px;
+  position: absolute;
+  top: 4800px;
+}
+
+.contact-form h3 {
+  font-family: 'Poppins', Times, serif;
+  font-weight: 2500;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-form p {
+  font-family: 'Poppins', Times, serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -330px;
+  line-height: 28px;
 }
