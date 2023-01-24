@@ -1,8 +1,6 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <h3><b>Microverse README Template</b></h3>
-</div>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -28,11 +26,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello-Microverse] <a name="about-project"></a>
+# 📖 [My-Portfolio] <a name="about-project"></a>
 
 > My Portfolio .
 
-**[Hello-Microverse]** This is the second two sections from my portfolio webstie.
+**[My-Portfolio]** This is the last section of my portfolio (Contact-form)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,9 +52,10 @@
 
 > Describe between 1-3 key features of the application.
 
-- second section with a cool work cards. 
-- An Introduction about me.
-- A button lead to my resume (will be completed later)
+- Contact Form with the following fileds:
+- Name and email Field.
+- A filed for sending message.
+- a submit button to send the data.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,9 +126,8 @@ You can deploy this project using:
 
 > The following are the future features that will be added to the project.
 
-- [ ] **[It_will_have_a_contact-form-section]**
-- [ ] **[It_will_have_a_button_leads_To_My_Resume]**
-- [ ] **[It_will_not_take_over_the_world]**
+- [ ] **[It_will_have_a_Desktop_version]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +157,7 @@ If you like this project you can buy me a coffee UwU
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank those who've motivated me to not give up, and also I would like to thank Microverse for this great opportunity
+I would like to thank those who've motivated me to not give up, and also I would like to thank Microverse for this great opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
