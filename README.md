@@ -26,11 +26,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello-Microverse] <a name="about-project"></a>
+# 📖 [My-Portfolio] <a name="about-project"></a>
 
 > My Portfolio .
 
-**[Hello-Microverse]** This is the last section of my portfolio (Contact-form)
+**[My-Portfolio]** This is the last section of my portfolio (Contact-form)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,7 +55,7 @@
 - Contact Form with the following fileds:
 - Name and email Field.
 - A filed for sending message.
-- a submit button for sending the data.
+- a submit button to send the data.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
