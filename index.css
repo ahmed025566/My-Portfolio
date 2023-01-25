@@ -7,9 +7,6 @@ html {
 
 .header {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 44px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1081,7 +1078,7 @@ button:hover {
 
 .contact-form h3 {
   font-family: 'Poppins', Times, serif;
-  font-weight: 2500;
+  font-weight: 700;
   font-size: 40px;
   font-style: normal;
   line-height: 52px;
@@ -1173,4 +1170,556 @@ textarea {
   position: absolute;
   bottom: 83px;
   left: 245px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-family: 'Poppins', Times, serif;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 20px;
+    box-sizing: content-box;
+    width: 259px;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .my-logo {
+    margin-left: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    position: absolute;
+    width: 259px;
+    height: 40px;
+    right: 50px;
+  }
+
+  .nav-bar li {
+    display: inline-block;
+  }
+
+  .nav-bar a {
+    color: #344563;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 15px;
+  }
+
+  .headline {
+    width: 100vw;
+    left: 0;
+    background: #fff;
+    display: block;
+    border-bottom-left-radius: 100px;
+    height: 450px;
+    box-sizing: border-box;
+    z-index: 22;
+  }
+
+  .headline h2 {
+    width: 920px;
+    height: 120px;
+    font-size: 50px;
+    line-height: 62px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+  }
+
+  .headline p {
+    width: 800px;
+    height: 98px;
+    font-size: 20px;
+    line-height: 28px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+  }
+
+  .Social h2 {
+    position: absolute;
+    top: 270px;
+  }
+
+  #twitter {
+    position: absolute;
+    top: -133px;
+    left: 55px;
+  }
+
+  #linkedin {
+    top: -133px;
+    left: 85px;
+  }
+
+  #github {
+    top: -133px;
+    left: 115px;
+  }
+
+  .h-c-b {
+    background: url(assets/images/half\ circle\ blue.png);
+    background-repeat: no-repeat;
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    top: 10px;
+    left: 80%;
+  }
+
+  .rectangle2 {
+    width: 204px;
+    height: 47px;
+    background: #ebebff;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: -12px;
+    left: 75%;
+  }
+
+  .rectangle21 {
+    width: 56.01px;
+    height: 10.02px;
+    background: #6070ff;
+    transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+  }
+
+  .circle51 {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #ebebff;
+    position: absolute;
+    top: 22.5%;
+    left: 51.3%;
+  }
+
+  .rectangle53 {
+    width: 108.67px;
+    height: 19.44px;
+    background: #ebebff;
+    transform: rotate(-46.14deg);
+    position: absolute;
+  }
+
+  .hal-cir {
+    width: 80.48px;
+    height: 40.24px;
+    border-top-left-radius: 80.48px;
+    border-top-right-radius: 80.48px;
+    background: #6070ff;
+    transform: rotate(-156.88deg);
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    z-index: -1;
+  }
+
+  .half-circle1 {
+    width: 36.9px;
+    height: 18.45px;
+    border-top-left-radius: 36.9px;
+    border-top-right-radius: 36.9px;
+    background: #6070ff;
+    transform: rotate(-176.08deg);
+    position: absolute;
+    top: 80%;
+    left: 15%;
+  }
+
+  .circle-b {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: #6070ff;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+  }
+
+  .rectangle41 {
+    width: 161.41px;
+    height: 28.87px;
+    background: #ebebff;
+    transform: rotate(23.34deg);
+    position: absolute;
+    top: 90%;
+    left: 35%;
+  }
+
+  .works {
+    width: 100vw;
+    left: 0;
+    top: 470px;
+    padding-top: 230px;
+  }
+
+  .card {
+    width: 80vw;
+    flex-direction: row;
+  }
+
+  .card img {
+    width: 50%;
+    height: 95%;
+    margin-left: 15px;
+  }
+
+  .card .info-block {
+    height: 90%;
+    width: 45%;
+
+    /* margin-left: 46px; */
+    margin-top: 10px;
+  }
+
+  .card .client {
+    width: 100%;
+  }
+
+  .client .project-title {
+    font-size: 40px;
+    line-height: 52px;
+    width: 400px;
+  }
+
+  .details {
+    width: 100%;
+  }
+
+  .details .name .project-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .details .circle-1 {
+    margin-left: 20px;
+    margin-top: 7px;
+  }
+
+  .details .role {
+    width: 100px;
+  }
+
+  .details .role .project-role {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    width: 200px;
+  }
+
+  .details .circle-2 {
+    margin-left: 17px;
+    margin-top: 7px;
+  }
+
+  .details .year {
+    margin-top: 5px;
+    margin-left: -10px;
+  }
+
+  .details .project-year .year {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .summary {
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .languages {
+    margin-top: -10px;
+  }
+
+  .action {
+    margin-top: 50px;
+  }
+
+  .card:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+
+  .card:nth-child(4) {
+    flex-direction: row-reverse;
+  }
+
+  .About-my-self {
+    top: 3500px;
+    left: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    border-top-right-radius: 100px;
+    display: block;
+    height: 600px;
+  }
+
+  .top {
+    width: 40%;
+    height: 500px;
+  }
+
+  .About-my-self .About {
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+  .About-my-self .about-my-self-paragraph {
+    margin-left: 50px;
+    margin-top: -20px;
+    width: 500px;
+  }
+
+  #connect {
+    margin-left: 50px;
+    margin-top: -110px;
+  }
+
+  .About-my-self #twitter {
+    margin-top: 50px;
+    margin-left: -20px;
+  }
+
+  .About-my-self #linkedin {
+    margin-top: 50px;
+    margin-left: -20px;
+  }
+
+  .About-my-self #github {
+    margin-top: 50px;
+    margin-left: -20px;
+  }
+
+  .resume {
+    margin-left: 40px;
+    margin-top: -80px;
+  }
+
+  .About-my-self .skill-list {
+    top: -500px;
+    left: 700px;
+  }
+
+  #lango button {
+    left: 500px;
+    top: calc(6% - 40px / 2);
+  }
+
+  .lango-list .ja-sc {
+    width: 122px;
+    height: 120px;
+    left: 0;
+    position: absolute;
+  }
+
+  .lango-list .ja-sc .image-1 {
+    top: -40px;
+  }
+
+  .lango-list .ja-sc .text {
+    top: 60px;
+    left: 20px;
+    font-size: 15px;
+  }
+
+  .lango-list .html {
+    width: 122px;
+    height: 120px;
+    position: absolute;
+    left: 150px;
+  }
+
+  .lango-list .html .image-2 {
+    top: 15px;
+  }
+
+  .lango-list .html .text {
+    top: 5px;
+    left: 20px;
+  }
+
+  .lango-list .css {
+    width: 122px;
+    height: 120px;
+    position: absolute;
+    left: 300px;
+  }
+
+  .lango-list .css .image-3 {
+    top: 15px;
+    left: 10px;
+  }
+
+  .lango-list .css .text {
+    top: 60px;
+    left: 20px;
+  }
+
+  .skill-list .frameworks {
+    top: 220px;
+    position: absolute;
+  }
+
+  .skill-list .frameworks .f-btn {
+    left: 500px;
+  }
+
+  .seprator {
+    width: 530px;
+    height: 1px;
+    background: #dfe1e6;
+    left: 10px;
+    position: absolute;
+    top: 300px;
+  }
+
+  .skill-list .abilties {
+    top: 300px;
+    position: absolute;
+  }
+
+  .skill-list .abilties .a-btn {
+    left: 500px;
+  }
+
+  .seprator1 {
+    width: 530px;
+    height: 1px;
+    background: #dfe1e6;
+    left: 10px;
+    position: absolute;
+    top: 380px;
+  }
+
+  .contact-form {
+    width: 100vw;
+    left: 0;
+    top: 4050px;
+  }
+
+  .contact-form p {
+    width: 596px;
+  }
+
+  .contact-form form {
+    top: 320px;
+  }
+
+  input,
+  textarea {
+    width: 520px;
+  }
+
+  input {
+    height: 30px;
+  }
+
+  .shape {
+    display: none;
+  }
+
+  .eclipse3 {
+    display: none;
+  }
+
+  .half-circle-blue {
+    background: url(assets/images/howolo.png);
+    width: 120px;
+    height: 120px;
+    left: 90%;
+    position: absolute;
+  }
+
+  .rectangle4 {
+    left: 88%;
+    top: 7.9%;
+    width: 107.2px;
+    height: 24.7px;
+  }
+
+  .eclipse12 {
+    width: 27px;
+    height: 27px;
+    left: 37%;
+    top: 12%;
+  }
+
+  .eclipse5 {
+    width: 48px;
+    height: 48px;
+    top: 50%;
+  }
+
+  .rectangle7 {
+    width: 117.53px;
+    height: 21px;
+    top: 49.2%;
+  }
+
+  .border-raduis {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #7f8cff;
+    position: absolute;
+    right: 20%;
+    top: 65%;
+  }
+
+  .rectangle5 {
+    width: 55.6px;
+    height: 9.95px;
+    background: #fff;
+    transform: rotate(-23.7deg);
+    position: absolute;
+    top: 90%;
+    left: 20%;
+  }
+
+  .half {
+    width: 41.18px;
+    height: 20.59px;
+    border-top-left-radius: 41.18px;
+    border-top-right-radius: 41.18px;
+    background: #7f8cff;
+    transform: rotate(-156.88deg);
+    position: absolute;
+    top: 92%;
+    left: 20.8%;
+  }
 }
