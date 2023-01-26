@@ -1750,3 +1750,116 @@ textarea {
     left: 20.8%;
   }
 }
+
+@media only screen and (min-width: 1000px) {
+  .About-my-self .about-my-self-paragraph {
+    width: 445px;
+  }
+
+  #connect {
+    position: absolute;
+    top: 390px;
+  }
+
+  .About-my-self #twitter {
+    margin-top: 60px;
+  }
+
+  .About-my-self #linkedin {
+    margin-top: 60px;
+  }
+
+  .About-my-self #github {
+    margin-top: 60px;
+  }
+
+  .resume {
+    margin-top: -70px;
+  }
+
+  .About-my-self .skill-list {
+    left: 520px;
+  }
+
+  #lango button {
+    left: 370px;
+    top: calc(6.5% - 40px / 2);
+  }
+
+  .lango-list .ja-sc {
+    width: 100px;
+    height: 100px;
+    left: 10px;
+  }
+
+  .lango-list .html {
+    width: 100px;
+    height: 100px;
+    left: 135px;
+  }
+
+  .lango-list .css {
+    width: 100px;
+    height: 100px;
+    left: 265px;
+  }
+
+  .skill-list .frameworks .f-btn {
+    left: 370px;
+  }
+
+  .seprator {
+    width: 410px;
+  }
+
+  .skill-list .abilties .a-btn {
+    left: 370px;
+  }
+
+  .seprator1 {
+    width: 410px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .About-my-self .skill-list {
+    left: 580px;
+  }
+
+  #lango button {
+    left: 590px;
+  }
+
+  .lango-list .ja-sc {
+    width: 120px;
+    height: 120px;
+  }
+
+  .lango-list .html {
+    width: 120px;
+    height: 120px;
+    left: 150px;
+  }
+
+  .lango-list .css {
+    width: 120px;
+    height: 120px;
+    left: 300px;
+  }
+
+  .skill-list .frameworks .f-btn {
+    left: 600px;
+  }
+
+  .seprator {
+    width: 650px;
+  }
+
+  .skill-list .abilties .a-btn {
+    left: 600px;
+  }
+
+  .seprator1 {
+    width: 650px;
+  }
+}
