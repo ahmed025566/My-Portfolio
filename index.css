@@ -1176,6 +1176,26 @@ textarea {
   .nav-bar {
     display: none;
   }
+
+  #twitter {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+  }
+
+  #linkedin {
+    top: 100px;
+    left: 35px;
+  }
+
+  #github {
+    top: 100px;
+    left: 65px;
+  }
+
+  .contact-form h3 {
+    position: absolute;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -1502,47 +1522,46 @@ textarea {
   .About-my-self .about-my-self-paragraph {
     margin-left: 50px;
     margin-top: -20px;
-    width: 500px;
   }
 
   #connect {
     margin-left: 50px;
-    margin-top: -110px;
+    margin-top: -40px;
   }
 
   .About-my-self #twitter {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: -20px;
   }
 
   .About-my-self #linkedin {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: -20px;
   }
 
   .About-my-self #github {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: -20px;
   }
 
   .resume {
     margin-left: 40px;
-    margin-top: -80px;
+    margin-top: -50px;
   }
 
   .About-my-self .skill-list {
     top: -500px;
-    left: 700px;
+    left: 400px;
   }
 
   #lango button {
-    left: 500px;
+    left: 260px;
     top: calc(6% - 40px / 2);
   }
 
   .lango-list .ja-sc {
-    width: 122px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     left: 0;
     position: absolute;
   }
@@ -1558,10 +1577,10 @@ textarea {
   }
 
   .lango-list .html {
-    width: 122px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     position: absolute;
-    left: 150px;
+    left: 110px;
   }
 
   .lango-list .html .image-2 {
@@ -1574,10 +1593,10 @@ textarea {
   }
 
   .lango-list .css {
-    width: 122px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
     position: absolute;
-    left: 300px;
+    left: 220px;
   }
 
   .lango-list .css .image-3 {
@@ -1596,11 +1615,11 @@ textarea {
   }
 
   .skill-list .frameworks .f-btn {
-    left: 500px;
+    left: 260px;
   }
 
   .seprator {
-    width: 530px;
+    width: 300px;
     height: 1px;
     background: #dfe1e6;
     left: 10px;
@@ -1614,11 +1633,11 @@ textarea {
   }
 
   .skill-list .abilties .a-btn {
-    left: 500px;
+    left: 260px;
   }
 
   .seprator1 {
-    width: 530px;
+    width: 300px;
     height: 1px;
     background: #dfe1e6;
     left: 10px;
@@ -1647,6 +1666,12 @@ textarea {
 
   input {
     height: 30px;
+  }
+
+  .get-in-touch {
+    position: absolute;
+    left: 35%;
+    top: 100%;
   }
 
   .shape {
@@ -1682,13 +1707,15 @@ textarea {
   .eclipse5 {
     width: 48px;
     height: 48px;
-    top: 50%;
+    top: 52%;
+    left: 5%;
   }
 
   .rectangle7 {
     width: 117.53px;
     height: 21px;
     top: 49.2%;
+    left: 1%;
   }
 
   .border-raduis {
@@ -1698,7 +1725,7 @@ textarea {
     background: #7f8cff;
     position: absolute;
     right: 20%;
-    top: 65%;
+    top: 85%;
   }
 
   .rectangle5 {
