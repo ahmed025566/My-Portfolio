@@ -224,7 +224,7 @@ html {
 }
 
 /* ============ Third Section =============== */
-.works {
+#works {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -591,7 +591,7 @@ button:hover {
 }
 
 /* =========== Forth Section ============= */
-.About-my-self {
+#About-my-self {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -649,7 +649,7 @@ button:hover {
   flex-grow: 0;
 }
 
-.About-my-self .social-media {
+#About-my-self .social-media {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -737,7 +737,7 @@ button:hover {
   flex-grow: 0;
 }
 
-.About-my-self .skill-list {
+#About-my-self .skill-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -751,7 +751,7 @@ button:hover {
   flex-grow: 0;
 }
 
-.About-my-self ul {
+#About-my-self ul {
   list-style: none;
 }
 
@@ -1027,7 +1027,7 @@ button:hover {
   color: #000;
 }
 
-.contact-form {
+#contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1076,7 +1076,7 @@ button:hover {
   left: 320px;
 }
 
-.contact-form h3 {
+#contact-form h3 {
   font-family: 'Poppins', Times, serif;
   font-weight: 700;
   font-size: 40px;
@@ -1085,7 +1085,7 @@ button:hover {
   color: #fff;
 }
 
-.contact-form p {
+#contact-form p {
   font-family: 'Poppins', Times, serif;
   font-weight: 400;
   font-size: 20px;
@@ -1193,7 +1193,7 @@ textarea {
     left: 65px;
   }
 
-  .contact-form h3 {
+  #contact-form h3 {
     position: absolute;
   }
 }
@@ -1398,7 +1398,7 @@ textarea {
     left: 35%;
   }
 
-  .works {
+  #works {
     width: 100vw;
     left: 0;
     top: 470px;
@@ -1498,7 +1498,7 @@ textarea {
     flex-direction: row-reverse;
   }
 
-  .About-my-self {
+  #About-my-self {
     top: 3500px;
     left: 0;
     width: 100vw;
@@ -1513,13 +1513,13 @@ textarea {
     height: 500px;
   }
 
-  .About-my-self .About {
+  #About-my-self .About {
     width: 200px;
     height: 100px;
     margin-left: 50px;
   }
 
-  .About-my-self .about-my-self-paragraph {
+  #About-my-self .about-my-self-paragraph {
     margin-left: 50px;
     margin-top: -20px;
   }
@@ -1529,17 +1529,17 @@ textarea {
     margin-top: -40px;
   }
 
-  .About-my-self #twitter {
+  #About-my-self #twitter {
     margin-top: 80px;
     margin-left: -20px;
   }
 
-  .About-my-self #linkedin {
+  #About-my-self #linkedin {
     margin-top: 80px;
     margin-left: -20px;
   }
 
-  .About-my-self #github {
+  #About-my-self #github {
     margin-top: 80px;
     margin-left: -20px;
   }
@@ -1549,7 +1549,7 @@ textarea {
     margin-top: -50px;
   }
 
-  .About-my-self .skill-list {
+  #About-my-self .skill-list {
     top: -500px;
     left: 400px;
   }
@@ -1645,17 +1645,17 @@ textarea {
     top: 380px;
   }
 
-  .contact-form {
+  #contact-form {
     width: 100vw;
     left: 0;
     top: 4050px;
   }
 
-  .contact-form p {
+  #contact-form p {
     width: 596px;
   }
 
-  .contact-form form {
+  #contact-form form {
     top: 320px;
   }
 
@@ -1752,7 +1752,7 @@ textarea {
 }
 
 @media only screen and (min-width: 1000px) {
-  .About-my-self .about-my-self-paragraph {
+  #About-my-self .about-my-self-paragraph {
     width: 445px;
   }
 
@@ -1761,15 +1761,15 @@ textarea {
     top: 390px;
   }
 
-  .About-my-self #twitter {
+  #About-my-self #twitter {
     margin-top: 60px;
   }
 
-  .About-my-self #linkedin {
+  #About-my-self #linkedin {
     margin-top: 60px;
   }
 
-  .About-my-self #github {
+  #About-my-self #github {
     margin-top: 60px;
   }
 
@@ -1777,7 +1777,7 @@ textarea {
     margin-top: -70px;
   }
 
-  .About-my-self .skill-list {
+  #About-my-self .skill-list {
     left: 520px;
   }
 
@@ -1822,7 +1822,7 @@ textarea {
 }
 
 @media only screen and (min-width: 1200px) {
-  .About-my-self .skill-list {
+  #About-my-self .skill-list {
     left: 580px;
   }
 
