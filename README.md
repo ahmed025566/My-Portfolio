@@ -67,8 +67,6 @@
 
 - [Live Demo Link](https://ahmed025566.github.io/)
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
