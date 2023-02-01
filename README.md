@@ -50,12 +50,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> In this project you can see that it has the following
 
-- Contact Form with the following fileds:
-- Name and email Field.
-- A filed for sending message.
-- a submit button to send the data.
+- Intro with my name and description. 
+- My recrent works.
+- How to reach me.
+- A contact form for messaging or any suggestions. 
+- responsivness in difrrent wiedthes and devices. 
+- It is accessable for any one.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
