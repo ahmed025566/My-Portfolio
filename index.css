@@ -79,7 +79,7 @@ html {
 }
 
 .overlay a {
-  padding: 12px;
+  padding: 10px;
   text-decoration: none;
   font-size: 30px;
   color: #fff;
@@ -98,6 +98,16 @@ html {
   top: 20px;
   right: 45px;
   font-size: 45px;
+}
+
+.shape-menu {
+  width: 145px;
+  height: 5px;
+  border-radius: 10px;
+  background: #0d151e;
+  position: absolute;
+  bottom: 8px;
+  left: 32%;
 }
 
 /* ======== Second Section ========= */
