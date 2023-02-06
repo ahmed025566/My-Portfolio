@@ -1,88 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1"/>
     <title>Ahmed Salah Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/722afd38e8.js" crossorigin="anonymous"></script>
-    
-</head>
-<body>
-   
-  <header class="header">
-    <a href="index.html" class="my-logo"><span>Ahmed</span></a>
-
-     <nav class="dropdown">
-        <button class="dropbtn"><img src="assets/images/button.png" alt=""></button>
-        <div class="dropdown-content">
-          <a href="#works">Portfolio</a>
-          <a href="#About-my-self">About</a>
-          <a href="#contact-form">Contact</a>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/722afd38e8.js"
+      crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="my-logo"><span>Ahmed</span></a>
+      <span class="h-btn" onclick="openNav()">&#9776; </span>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="#works" onclick="closeNav()">Portfolio</a>
+          <a href="#About-my-self" onclick="closeNav()">About</a>
+          <a href="#contact-form" onclick="closeNav()">Contact</a>
         </div>
-    </nav>
-<!---------------Desktop header version--------------------->
-<nav class="nav-bar">
-  <ul>
-    <li><a href="#works">Portfolio</a></li>
-    <li><a href="#About-my-self">About</a></li>
-    <li><a href="#contact-form">Contact</a></li>
-  </ul>
-</nav>  
-<!------------- End of desktop header version---------------->
-  </header>
-  
+        <div class="shape-menu"></div>
+      </div>
+
+      <!---------------Desktop header version--------------------->
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="#works">Portfolio</a></li>
+          <li><a href="#About-my-self">About</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+        </ul>
+      </nav>
+      <!------------- End of desktop header version---------------->
+    </header>
+
     <section class="headline">
-        
-        <h2>I’m Ahmed<br> Glad to see you!</h2>
+      <h2>
+        I’m Ahmed<br />
+        Glad to see you!
+      </h2>
 
-        <p>I’m a software developer! I can help you build a product,
-           feature or website Look through some of my work and experience! 
-           If you like what you see and have a project you need coded,
-           don’t hestiate to contact me.
-        </p>  
+      <p>
+        I’m a software developer! I can help you build a product, feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
 
-            <div class="Social"> 
-                <span class="Text"><h2>LET’S CONNECT</h2></span>
-             </div>
-             
-             <ul class="social-media-icons">
-              <li>
-                <a href="https://twitter.com/AhmedEl18692792" alt="Twitter account" target="_blank"
-                 rel="noreferrer noopener">
-                 <i class="fa-brands fa-twitter" id="twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/ahmed-salah025566" alt="linkedin account" target="_blank"
-                  rel="noreferrer noopener">
-                  <i class="fa-brands fa-linkedin" id="linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/ahmed025566" alt="github account" target="_blank"
-                  rel="noreferrer noopener">
-                  <i class="fa-brands fa-github" id="github"></i>
-                </a>
-              </li>
-             </ul>
-             <div class="h-c-b"></div>
-             <div class="rectangle2"></div>
-             <div class="rectangle21"></div>
-             <div class="circle51"></div>
-             <div class="rectangle53"></div>
-             <div class="hal-cir"></div>
-             <div class="circle-b"></div>
-             <div class="half-circle1"></div>
-             <div class="rectangle41"></div>
+      <div class="Social">
+        <span class="Text"><h2>LET’S CONNECT</h2></span>
+      </div>
 
+      <ul class="social-media-icons">
+        <li>
+          <a
+            href="https://twitter.com/AhmedEl18692792"
+            alt="Twitter account"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i class="fa-brands fa-twitter" id="twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/ahmed-salah025566"
+            alt="linkedin account"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i class="fa-brands fa-linkedin" id="linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/ahmed025566"
+            alt="github account"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <i class="fa-brands fa-github" id="github"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="h-c-b"></div>
+      <div class="rectangle2"></div>
+      <div class="rectangle21"></div>
+      <div class="circle51"></div>
+      <div class="rectangle53"></div>
+      <div class="hal-cir"></div>
+      <div class="circle-b"></div>
+      <div class="half-circle1"></div>
+      <div class="rectangle41"></div>
     </section>
- 
+
     <section id="works">
       <div class="card">
-        <img src="assets/images/Snapshoot Portfolio-1.png" alt="Snapshoot-portfolio">
+        <img
+          src="assets/images/Snapshoot Portfolio-1.png"
+          alt="Snapshoot-portfolio"
+        />
         <div class="info-block">
           <div class="client">
             <h2 class="project-title">Tonic</h2>
@@ -94,32 +115,10 @@
               <div class="year"><p class="project-year">2015</p></div>
             </div>
           </div>
-          <p class="summary">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-          <div class="languages">
-            <div class="html"><p class="project-html">html</p></div>
-            <div class="css"><p class="project-css">css</p></div>
-            <div class="js"><p class="project-js">javaScript</p></div>
-          </div>
-          <div class="action">
-           <button><span class="see">See Project</span></button>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <img src="assets/images/Snapshoot Portfolio-2.png" alt="Snapshoot-portfolio">
-        <div class="info-block">
-          <div class="client">
-            <h2 class="project-title">Multi-Post
-              Stories</h2>
-            <div class="details">
-              <div class="name"><p class="project-name">CANOPY</p></div>
-              <div class="circle-1"></div>
-              <div class="role"><p class="project-role">Back End Dev</p></div>
-              <div class="circle-2"></div>
-              <div class="year"><p class="project-year">2015</p></div>
-            </div>
-          </div>
-          <p class="summary">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="summary">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
           <div class="languages">
             <div class="html"><p class="project-html">html</p></div>
             <div class="css"><p class="project-css">css</p></div>
@@ -131,7 +130,40 @@
         </div>
       </div>
       <div class="card">
-        <img src="assets/images/Snapshoot Portfolio-3.png" alt="Snapshoot-portfolio">
+        <img
+          src="assets/images/Snapshoot Portfolio-2.png"
+          alt="Snapshoot-portfolio"
+        />
+        <div class="info-block">
+          <div class="client">
+            <h2 class="project-title">Multi-Post Stories</h2>
+            <div class="details">
+              <div class="name"><p class="project-name">CANOPY</p></div>
+              <div class="circle-1"></div>
+              <div class="role"><p class="project-role">Back End Dev</p></div>
+              <div class="circle-2"></div>
+              <div class="year"><p class="project-year">2015</p></div>
+            </div>
+          </div>
+          <p class="summary">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="languages">
+            <div class="html"><p class="project-html">html</p></div>
+            <div class="css"><p class="project-css">css</p></div>
+            <div class="js"><p class="project-js">javaScript</p></div>
+          </div>
+          <div class="action">
+            <button><span class="see">See Project</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img
+          src="assets/images/Snapshoot Portfolio-3.png"
+          alt="Snapshoot-portfolio"
+        />
         <div class="info-block">
           <div class="client">
             <h2 class="project-title">Tonic</h2>
@@ -143,7 +175,10 @@
               <div class="year"><p class="project-year">2015</p></div>
             </div>
           </div>
-          <p class="summary">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="summary">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
           <div class="languages">
             <div class="html"><p class="project-html">html</p></div>
             <div class="css"><p class="project-css">css</p></div>
@@ -155,20 +190,25 @@
         </div>
       </div>
       <div class="card">
-        <img src="assets/images/Snapshoot Portfolio-4.png" alt="Snapshoot-portfolio">
+        <img
+          src="assets/images/Snapshoot Portfolio-4.png"
+          alt="Snapshoot-portfolio"
+        />
         <div class="info-block">
           <div class="client">
-            <h2 class="project-title">Multi-Post
-              Stories</h2>
-              <div class="details">
-                <div class="name"><p class="project-name">CANOPY</p></div>
-                <div class="circle-1"></div>
-                <div class="role"><p class="project-role">Back End Dev</p></div>
-                <div class="circle-2"></div>
-                <div class="year"><p class="project-year">2015</p></div>
-              </div>
+            <h2 class="project-title">Multi-Post Stories</h2>
+            <div class="details">
+              <div class="name"><p class="project-name">CANOPY</p></div>
+              <div class="circle-1"></div>
+              <div class="role"><p class="project-role">Back End Dev</p></div>
+              <div class="circle-2"></div>
+              <div class="year"><p class="project-year">2015</p></div>
+            </div>
           </div>
-          <p class="summary">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="summary">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
           <div class="languages">
             <div class="html"><p class="project-html">html</p></div>
             <div class="css"><p class="project-css">css</p></div>
@@ -182,91 +222,139 @@
     </section>
     <section id="About-my-self">
       <div class="top">
-        <h2 class="About">About
-          Myself</h2>
-        <p class="about-my-self-paragraph">Hello I’m a software developer!
-          I can help you build a product ,
-          feature or website Look through some of my work and experience!
-          If you like what you see and have a project you need coded,
-          don’t hestiate to contact me.</p>
+        <h2 class="About">About Myself</h2>
+        <p class="about-my-self-paragraph">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
         <div class="social-media">
           <div class="supporting-text"><p id="connect">LET’S CONNECT</p></div>
           <ul id="social-media-icons">
             <li>
-              <a href="https://twitter.com/AhmedEl18692792" alt="Twitter account" target="_blank"
-               rel="noreferrer noopener">
-               <i class="fa-brands fa-twitter" id="twitter"></i>
+              <a
+                href="https://twitter.com/AhmedEl18692792"
+                alt="Twitter account"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <i class="fa-brands fa-twitter" id="twitter"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/ahmed-salah025566" alt="linkedin account" target="_blank"
-                rel="noreferrer noopener">
+              <a
+                href="https://www.linkedin.com/in/ahmed-salah025566"
+                alt="linkedin account"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <i class="fa-brands fa-linkedin" id="linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="https://github.com/ahmed025566" alt="github account" target="_blank"
-                rel="noreferrer noopener">
+              <a
+                href="https://github.com/ahmed025566"
+                alt="github account"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <i class="fa-brands fa-github" id="github"></i>
               </a>
             </li>
-           </ul>
+          </ul>
         </div>
-        <button class="resume"><span class="resume-text">Get my resume</span></button>
+        <button class="resume">
+          <span class="resume-text">Get my resume</span>
+        </button>
       </div>
       <ul class="skill-list">
         <li id="Programming-languages">
           <div id="lango">
-            <button><img src="assets/images/arrow button.png" alt=""></button>
+            <button><img src="assets/images/arrow button.png" alt="" /></button>
             <p class="head-text">Languages</p>
           </div>
           <ul class="lango-list">
             <li class="ja-sc">
               <p class="text">JavaSript</p>
-              <img src="assets/images/js.png" alt="javaScript" class="image-1">
+              <img
+                src="assets/images/js.png"
+                alt="javaScript"
+                class="image-1"
+              />
             </li>
             <li class="html">
-              <img src="assets/images/html.png" alt="html" class="image-2">
+              <img src="assets/images/html.png" alt="html" class="image-2" />
               <p class="text">HTML</p>
             </li>
             <li class="css">
-              <img src="assets/images/css.png" alt="css" class="image-3">
+              <img src="assets/images/css.png" alt="css" class="image-3" />
               <p class="text">CSS</p>
-            </li> 
+            </li>
           </ul>
         </li>
         <li class="frameworks">
           <p class="text">Frameworks</p>
-          <button class="f-btn"><img src="assets/images/arrow button to right.png" alt="" class="f-image"></button>
+          <button class="f-btn">
+            <img
+              src="assets/images/arrow button to right.png"
+              alt=""
+              class="f-image"
+            />
+          </button>
         </li>
         <div class="seprator"></div>
         <li class="abilties">
           <p class="text">Skills</p>
-          <button class="a-btn"><img src="assets/images/arrow button to right.png" alt="" class="a-image"></button>
+          <button class="a-btn">
+            <img
+              src="assets/images/arrow button to right.png"
+              alt=""
+              class="a-image"
+            />
+          </button>
         </li>
         <div class="seprator1"></div>
       </ul>
-      
     </section>
-      
+
     <section id="contact-form">
       <div class="eclipse12"></div>
       <div class="rectangle4"></div>
       <div class="eclipse3"></div>
       <div class="half-circle-blue"></div>
       <h3>Contact me</h3>
-      <P>
-        If you have an application you are interested in developing,
-         a feature that you need built or a project that needs coding.
-         I’d love to help with it 
-      </P>
+      <p>
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
       <form action="https://formspree.io/f/xbjelnrl" method="post">
         <label for="name"></label>
-        <input type="text" id="name" name="user_name" maxlength="30" placeholder="Write your name here" required>
+        <input
+          type="text"
+          id="name"
+          name="user_name"
+          maxlength="30"
+          placeholder="Write your name here"
+          required
+        />
         <label for="email"></label>
-        <input type="email" name="user_email" id="email" placeholder="Write your email here" required>
+        <input
+          type="email"
+          name="user_email"
+          id="email"
+          placeholder="Write your email here"
+          required
+        />
         <label for="msg"></label>
-        <textarea name="user_message" id="msg" maxlength="500" rows="7" placeholder="write your message here."></textarea>
+        <textarea
+          name="user_message"
+          id="msg"
+          maxlength="500"
+          rows="7"
+          placeholder="write your message here."
+        ></textarea>
         <button type="submit" class="get-in-touch">Get in touch</button>
       </form>
       <div class="half"></div>
@@ -274,8 +362,7 @@
       <div class="border-raduis"></div>
       <div class="shape"></div>
       <div class="rectangle7"></div>
-      <div class="eclipse5"></div>   
+      <div class="eclipse5"></div>
     </section>
-    
-</body>
+  </body>
 </html>
