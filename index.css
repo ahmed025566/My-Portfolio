@@ -288,6 +288,7 @@ html {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
 .popup {
   box-sizing: border-box;
   display: none;
@@ -308,6 +309,7 @@ html {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
 .card img,
 .popup img {
   width: 295px;
@@ -391,7 +393,7 @@ html {
 }
 
 .details .name .project-name,
- .popup-project-name{
+.popup-project-name {
   width: 55px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -430,7 +432,7 @@ html {
 }
 
 .details .role .project-role,
- .popup-project-role{
+.popup-project-role {
   width: 88px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -445,7 +447,7 @@ html {
 }
 
 .details .circle-2,
- .popup-circle-2{
+.popup-circle-2 {
   width: 8px;
   height: 8px;
   background: #c1c7d0;
@@ -484,7 +486,7 @@ html {
 }
 
 .summary,
- .popup-summary{
+.popup-summary {
   width: 295px;
   height: 76px;
   font-family: 'Poppins', Times, serif;
@@ -500,8 +502,8 @@ html {
   top: -20px;
 }
 
-.languages ,
-.popup-languages{
+.languages,
+.popup-languages {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -515,7 +517,7 @@ html {
   flex-grow: 0;
 }
 
-.languages .html ,
+.languages .html,
 .popup-html {
   display: flex;
   flex-direction: row;
@@ -532,7 +534,7 @@ html {
 }
 
 .languages .html .project-html,
-.popup-project-html{
+.popup-project-html {
   width: 29px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -596,7 +598,7 @@ html {
 }
 
 .languages .js .project-js,
-.popup-project-js{
+.popup-project-js {
   width: 65px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -863,6 +865,20 @@ button:hover {
   top: calc(8% - 40px / 2);
   border-radius: 8px;
   background-color: #fff;
+}
+
+#source img {
+  width: 20px;
+  height: 20px;
+  color: #0d151e;
+  position: relative;
+}
+
+#go-live img {
+  width: 20px;
+  height: 20px;
+  color: #0d151e;
+  position: relative;
 }
 
 #lango button img {
@@ -1250,14 +1266,13 @@ textarea {
 @media only screen and (max-width: 768px) {
   #close-btn-n {
     width: 20px;
-    height :20px;
+    height: 20px;
     position: absolute;
-    top:5%;
+    top: 5%;
     right: 5%;
-    
     color: #000;
-    
   }
+
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -1966,17 +1981,19 @@ textarea {
     width: 650px;
   }
 }
+
 .closebtn-n {
   position: absolute;
-  top:7%;
+  top: 7%;
   right: -10%;
   width: 300px;
-  height :300px;
+  height: 300px;
 }
+
 #go-live {
   width: 120px;
   height: 70px;
-  background-color: #EBECF0;
+  background-color: #ebecf0;
   position: relative;
   bottom: -80%;
   border-radius: 10px;
@@ -1984,16 +2001,11 @@ textarea {
   justify-content: space-around;
   align-items: center;
 }
-#go-live img {
-  width: 20px;
-  height: 20px;
-  color: #0d151e;
-  position: relative;
-}
+
 #source {
   width: 120px;
   height: 70px;
-  background-color: #EBECF0;
+  background-color: #ebecf0;
   position: relative;
   bottom: -66%;
   right: -50%;
@@ -2001,10 +2013,4 @@ textarea {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-#source img {
-  width: 20px;
-  height: 20px;
-  color: #0d151e;
-  position: relative;
 }

@@ -58,7 +58,7 @@ const projects = [{
 },
 ];
 const projectsContainer = document.getElementById('works');
-for(let i = 0 ; i < projects.length; i++){
+for (let i = 0; i < projects.length; i += 1) {
   const project = document.createElement('div');
   project.className = 'card';
   project.innerHTML = `
@@ -86,14 +86,13 @@ for(let i = 0 ; i < projects.length; i++){
     <button class="see_project"><span class="see">${projects[i].button}</span></button>
   </div>
 </div>`;
-const button = project.querySelector('.see_project');
+  const button = project.querySelector('.see_project');
   button.addEventListener('click', () => {
-   document.querySelector('.popup').style.display = 'flex';
+    document.querySelector('.popup').style.display = 'flex';
   });
   projectsContainer.append(project);
 }
-const popupContainer = document.getElementById('works');
-for(let i = 0 ; i < projects.length; i++){
+for (let i = 0; i < projects.length; i += 1) {
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `
@@ -121,9 +120,9 @@ for(let i = 0 ; i < projects.length; i++){
   <button id="source"><img src="assets/images/images.png" alt="github">See Source</button>
   <a href="javascript:void(0)" id="close-btn-n" class="closebtn-n">&times;</a>
 </div>`;
-const button = popup.querySelector('#close-btn-n');
+  const button = popup.querySelector('#close-btn-n');
   button.addEventListener('click', () => {
-   document.querySelector('.popup').style.display = 'none';
+    document.querySelector('.popup').style.display = 'none';
   });
-projectsContainer.append(popup);
+  projectsContainer.append(popup);
 }
