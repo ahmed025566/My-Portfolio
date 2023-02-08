@@ -289,29 +289,7 @@ html {
   border-radius: 16px;
 }
 
-.popup {
-  box-sizing: border-box;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  gap: 12px;
-  backdrop-filter: blur(10px);
-  width: 100%;
-  height: 100vh;
-  z-index: 23;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  overflow-y: scroll;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-}
-
-.card img,
-.popup img {
+.card img {
   width: 295px;
   height: 220px;
   border-radius: 8px;
@@ -320,8 +298,7 @@ html {
   flex-grow: 0;
 }
 
-.card .info-block,
-.popup-info-block {
+.card .info-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -334,8 +311,7 @@ html {
   flex-grow: 0;
 }
 
-.card .client,
-.popup-client {
+.card .client {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -348,8 +324,7 @@ html {
   flex-grow: 0;
 }
 
-.project-title,
-.popup-project-title {
+.project-title {
   width: 295px;
   height: 36px;
   font-family: 'Poppins', Times, serif;
@@ -364,8 +339,7 @@ html {
   margin-top: 0;
 }
 
-.details,
-.popup-details {
+.details {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -379,8 +353,7 @@ html {
   flex-grow: 0;
 }
 
-.details .name,
-.popup-name {
+.details .name {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -392,8 +365,7 @@ html {
   flex-grow: 0;
 }
 
-.details .name .project-name,
-.popup-project-name {
+.details .name .project-name {
   width: 55px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -407,8 +379,7 @@ html {
   flex-grow: 0;
 }
 
-.circle-1,
-.popup-circle-1 {
+.circle-1 {
   width: 8px;
   height: 8px;
   background: #c1c7d0;
@@ -418,8 +389,7 @@ html {
   border-radius: 50%;
 }
 
-.details .role,
-.popup-role {
+.details .role {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -431,8 +401,7 @@ html {
   flex-grow: 0;
 }
 
-.details .role .project-role,
-.popup-project-role {
+.details .role .project-role {
   width: 88px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -446,8 +415,7 @@ html {
   flex-grow: 0;
 }
 
-.details .circle-2,
-.popup-circle-2 {
+.details .circle-2 {
   width: 8px;
   height: 8px;
   background: #c1c7d0;
@@ -457,8 +425,7 @@ html {
   border-radius: 50%;
 }
 
-.details .year,
-.popup-year {
+.details .year {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -470,8 +437,7 @@ html {
   flex-grow: 0;
 }
 
-.details .year .project-year,
-.popup-project-year {
+.details .year .project-year {
   width: 29px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -485,8 +451,7 @@ html {
   flex-grow: 0;
 }
 
-.summary,
-.popup-summary {
+.summary {
   width: 295px;
   height: 76px;
   font-family: 'Poppins', Times, serif;
@@ -502,8 +467,7 @@ html {
   top: -20px;
 }
 
-.languages,
-.popup-languages {
+.languages {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -517,8 +481,7 @@ html {
   flex-grow: 0;
 }
 
-.languages .html,
-.popup-html {
+.languages .html {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -533,8 +496,7 @@ html {
   flex-grow: 0;
 }
 
-.languages .html .project-html,
-.popup-project-html {
+.languages .html .project-html {
   width: 29px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -549,8 +511,7 @@ html {
   flex-grow: 0;
 }
 
-.languages .css,
-.popup-css {
+.languages .css {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -565,8 +526,7 @@ html {
   flex-grow: 0;
 }
 
-.languages .css .project-css,
-.popup-project-css {
+.languages .css .project-css {
   width: 21px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -581,8 +541,7 @@ html {
   flex-grow: 0;
 }
 
-.languages .js,
-.popup-js {
+.languages .js {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -597,8 +556,7 @@ html {
   flex-grow: 0;
 }
 
-.languages .js .project-js,
-.popup-project-js {
+.languages .js .project-js {
   width: 65px;
   height: 16px;
   font-family: 'Poppins', Times, serif;
@@ -867,18 +825,20 @@ button:hover {
   background-color: #fff;
 }
 
-#source img {
-  width: 20px;
-  height: 20px;
-  color: #0d151e;
-  position: relative;
+.cadr img {
+  width: 95%;
+  height: 70%;
+  margin: 3px 2.5% 0 2.5%;
 }
 
-#go-live img {
-  width: 20px;
-  height: 20px;
-  color: #0d151e;
-  position: relative;
+.see-live img {
+  width: 15px;
+  height: 15px;
+}
+
+.see-source img {
+  width: 15px;
+  height: 15px;
 }
 
 #lango button img {
@@ -1534,7 +1494,8 @@ textarea {
     margin-left: 15px;
   }
 
-  .card .info-block {
+  .card .info-block,
+  .popup-info-block {
     height: 90%;
     width: 45%;
 
@@ -1542,52 +1503,62 @@ textarea {
     margin-top: 10px;
   }
 
-  .card .client {
+  .card .client,
+  .popup-client {
     width: 100%;
   }
 
-  .client .project-title {
+  .client .project-title,
+  .popup-project-title {
     font-size: 40px;
     line-height: 52px;
     width: 400px;
   }
 
-  .details {
+  .details,
+  .popup-details {
     width: 100%;
   }
 
-  .details .name .project-name {
+  .details .name .project-name,
+  .popup-name {
     font-size: 18px;
     line-height: 24px;
   }
 
-  .details .circle-1 {
+  .details .circle-1,
+  .popup-circle-1 {
     margin-left: 20px;
     margin-top: 7px;
   }
 
-  .details .role {
+  .details .role,
+  .popup-role {
     width: 100px;
   }
 
-  .details .role .project-role {
+  .details .role .project-role,
+  .popup-project-role {
     margin-top: 16px;
     font-size: 18px;
     line-height: 24px;
     width: 200px;
   }
 
-  .details .circle-2 {
+  .details .circle-2,
+  .popup-circle-2 {
     margin-left: 17px;
     margin-top: 7px;
   }
 
-  .details .year {
+  .details .year,
+  .popup-year {
     margin-top: 5px;
     margin-left: -10px;
   }
 
-  .details .project-year .year {
+  .details .project-year .year,
+  .popup-project-year {
     font-size: 18px;
     line-height: 24px;
   }
@@ -1600,7 +1571,12 @@ textarea {
     line-height: 24px;
   }
 
-  .languages {
+  .popup-summary {
+    margin-top: -100px;
+  }
+
+  .languages,
+  .popup-languages {
     margin-top: -10px;
   }
 
@@ -1614,6 +1590,14 @@ textarea {
 
   .card:nth-child(4) {
     flex-direction: row-reverse;
+  }
+
+  #source {
+    top: 30%;
+  }
+
+  #go-live {
+    top: 43%;
   }
 
   #About-my-self {
@@ -1982,35 +1966,172 @@ textarea {
   }
 }
 
-.closebtn-n {
+.popup {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
   position: absolute;
-  top: 7%;
-  right: -10%;
-  width: 300px;
-  height: 300px;
-}
-
-#go-live {
-  width: 120px;
-  height: 70px;
-  background-color: #ebecf0;
-  position: relative;
-  bottom: -80%;
-  border-radius: 10px;
+  right: 0;
+  box-sizing: content-box;
+  top: 200px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
-#source {
-  width: 120px;
-  height: 70px;
-  background-color: #ebecf0;
-  position: relative;
-  bottom: -66%;
-  right: -50%;
+.cadr {
+  width: 80%;
+  height: 90%;
+  background-color: #fff;
   border-radius: 10px;
+}
+
+.cadr .project-title {
+  margin: 10px 0 0 20px;
+}
+
+.cadr .details {
+  margin: 5px 0 0 20px;
+}
+
+.cadr .summary {
+  margin: 30px 0 0 25px;
+  width: 35%;
+}
+
+.cadr .languages {
+  position: absolute;
+  top: 89%;
+  left: 40%;
+}
+
+.see-live {
+  width: 120px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 64%;
+  top: 87%;
+  border: 1px solid #6070ff;
+  border-radius: 5px;
+  color: #6070ff;
+  font-size: 20px;
+}
+
+.see-source {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 74%;
+  top: 87%;
+  border: 1px solid #6070ff;
+  border-radius: 5px;
+  color: #6070ff;
+  font-size: 20px;
+}
+
+.cadr #close-p {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 11%;
+  top: 6%;
+}
+
+.popup1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
+  position: absolute;
+  right: 0;
+  box-sizing: content-box;
+  top: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
+  position: absolute;
+  right: 0;
+  box-sizing: content-box;
+  top: 1650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
+  position: absolute;
+  right: 0;
+  box-sizing: content-box;
+  top: 2400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .popup {
+    width: 425px;
+    height: 800px;
+    top: 0;
+    left: 0;
+  }
+
+  .cadr .summary {
+    width: 100%;
+  }
+
+  .cadr img {
+    height: 60%;
+  }
+
+  .cadr .languages {
+    top: 85%;
+    left: 20%;
+  }
+
+  .see-live {
+    left: 15%;
+  }
+
+  .see-source {
+    left: 50%;
+  }
+
+  .popup1 {
+    width: 425px;
+    height: 800px;
+    top: 750px;
+  }
+
+  .details .role .project-role {
+    width: 100px;
+  }
+
+  .popup2 {
+    width: 425px;
+    height: 800px;
+    top: 1450px;
+  }
+
+  .popup3 {
+    width: 425px;
+    height: 800px;
+    top: 2140px;
+  }
 }
