@@ -608,7 +608,7 @@ button:hover {
 }
 
 .action button .see {
-  width: 100px;
+  width: 150px;
   height: 24px;
   font-family: 'Poppins', Times, serif;
   font-style: normal;
@@ -823,6 +823,22 @@ button:hover {
   top: calc(8% - 40px / 2);
   border-radius: 8px;
   background-color: #fff;
+}
+
+.cadr img {
+  width: 95%;
+  height: 70%;
+  margin: 3px 2.5% 0 2.5%;
+}
+
+.see-live img {
+  width: 15px;
+  height: 15px;
+}
+
+.see-source img {
+  width: 15px;
+  height: 15px;
 }
 
 #lango button img {
@@ -1208,6 +1224,15 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
+  #close-btn-n {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #000;
+  }
+
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -1469,7 +1494,8 @@ textarea {
     margin-left: 15px;
   }
 
-  .card .info-block {
+  .card .info-block,
+  .popup-info-block {
     height: 90%;
     width: 45%;
 
@@ -1477,52 +1503,62 @@ textarea {
     margin-top: 10px;
   }
 
-  .card .client {
+  .card .client,
+  .popup-client {
     width: 100%;
   }
 
-  .client .project-title {
+  .client .project-title,
+  .popup-project-title {
     font-size: 40px;
     line-height: 52px;
     width: 400px;
   }
 
-  .details {
+  .details,
+  .popup-details {
     width: 100%;
   }
 
-  .details .name .project-name {
+  .details .name .project-name,
+  .popup-name {
     font-size: 18px;
     line-height: 24px;
   }
 
-  .details .circle-1 {
+  .details .circle-1,
+  .popup-circle-1 {
     margin-left: 20px;
     margin-top: 7px;
   }
 
-  .details .role {
+  .details .role,
+  .popup-role {
     width: 100px;
   }
 
-  .details .role .project-role {
+  .details .role .project-role,
+  .popup-project-role {
     margin-top: 16px;
     font-size: 18px;
     line-height: 24px;
     width: 200px;
   }
 
-  .details .circle-2 {
+  .details .circle-2,
+  .popup-circle-2 {
     margin-left: 17px;
     margin-top: 7px;
   }
 
-  .details .year {
+  .details .year,
+  .popup-year {
     margin-top: 5px;
     margin-left: -10px;
   }
 
-  .details .project-year .year {
+  .details .project-year .year,
+  .popup-project-year {
     font-size: 18px;
     line-height: 24px;
   }
@@ -1535,7 +1571,12 @@ textarea {
     line-height: 24px;
   }
 
-  .languages {
+  .popup-summary {
+    margin-top: -100px;
+  }
+
+  .languages,
+  .popup-languages {
     margin-top: -10px;
   }
 
@@ -1549,6 +1590,14 @@ textarea {
 
   .card:nth-child(4) {
     flex-direction: row-reverse;
+  }
+
+  #source {
+    top: 30%;
+  }
+
+  #go-live {
+    top: 43%;
   }
 
   #About-my-self {
@@ -1914,5 +1963,175 @@ textarea {
 
   .seprator1 {
     width: 650px;
+  }
+}
+
+.popup {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
+  position: absolute;
+  right: 0;
+  box-sizing: content-box;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadr {
+  width: 80%;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.cadr .project-title {
+  margin: 10px 0 0 20px;
+}
+
+.cadr .details {
+  margin: 5px 0 0 20px;
+}
+
+.cadr .summary {
+  margin: 30px 0 0 25px;
+  width: 35%;
+}
+
+.cadr .languages {
+  position: absolute;
+  top: 89%;
+  left: 40%;
+}
+
+.see-live {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 64%;
+  top: 87%;
+  border: 1px solid #6070ff;
+  border-radius: 5px;
+  color: #6070ff;
+  font-size: 20px;
+}
+
+.see-source {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 74%;
+  top: 87%;
+  border: 1px solid #6070ff;
+  border-radius: 5px;
+  color: #6070ff;
+  font-size: 20px;
+}
+
+.cadr #close-p {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 11%;
+  top: 6%;
+}
+
+.popup1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
+  position: absolute;
+  right: 0;
+  box-sizing: content-box;
+  top: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
+  position: absolute;
+  right: 0;
+  box-sizing: content-box;
+  top: 1650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.8);
+  position: absolute;
+  right: 0;
+  box-sizing: content-box;
+  top: 2400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .popup {
+    width: 425px;
+    height: 800px;
+    top: 0;
+    left: 0;
+  }
+
+  .cadr .summary {
+    width: 100%;
+  }
+
+  .cadr img {
+    height: 60%;
+  }
+
+  .cadr .languages {
+    top: 85%;
+    left: 20%;
+  }
+
+  .see-live {
+    left: 15%;
+  }
+
+  .see-source {
+    left: 50%;
+  }
+
+  .popup1 {
+    width: 425px;
+    height: 800px;
+    top: 750px;
+  }
+
+  .details .role .project-role {
+    width: 100px;
+  }
+
+  .popup2 {
+    width: 425px;
+    height: 800px;
+    top: 1450px;
+  }
+
+  .popup3 {
+    width: 425px;
+    height: 800px;
+    top: 2140px;
   }
 }
