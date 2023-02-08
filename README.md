@@ -58,6 +58,7 @@
 - A contact form for messaging or any suggestions. 
 - responsivness in difrrent wiedthes and devices. 
 - It is accessable for any one.
+- The email input has a cool validation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,6 +122,11 @@ You can deploy this project using:
 - GitHub: [@ahmed](https://github.com/ahmed025566)
 - Twitter: [@AhmedEl18692792](https://twitter.com/AhmedEl18692792)
 - LinkedIn: [Ahmed Salah](https://www.linkedin.com/in/ahmed-salah025566)
+
+> 👤 **Gardimyloaded**
+- GitHub: [@Gardimy](https://github.com/Gardimy)
+- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
+- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
 <!-- FUTURE FEATURES -->
 
