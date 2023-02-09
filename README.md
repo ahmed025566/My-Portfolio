@@ -59,6 +59,7 @@
 - responsivness in difrrent wiedthes and devices. 
 - It is accessable for any one.
 - The email input has a cool validation
+-I save in the form data in the local-storage of the browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
