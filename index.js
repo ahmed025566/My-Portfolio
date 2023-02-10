@@ -232,4 +232,35 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+const formData = JSON.parse(localStorage.getItem('info')) || {
+  name: '',
+  mail: '',
+  msg: '',
+};
+const nameData = document.getElementById('name');
+const message = document.getElementById('msg');
+function saveToLocal(formData) {
+  localStorage.setItem('info', JSON.stringify(formData));
+}
+
+nameData.addEventListener('input', (event) => {
+  formData.name = event.target.value;
+  saveToLocal(formData);
+});
+
+email.addEventListener('input', (event) => {
+  formData.mail = event.target.value;
+  saveToLocal(formData);
+});
+
+message.addEventListener('input', (event) => {
+  formData.msg = event.target.value;
+  saveToLocal(formData);
+});
+function inputData() {
+  nameData.value = formData.name;
+  email.value = formData.mail;
+  message.value = formData.msg;
+}
+window.onload = inputData();
 console.log(closeP4(), closeP3(), closeP2(), closeP1());

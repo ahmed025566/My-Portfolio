@@ -58,7 +58,9 @@
 - A contact form for messaging or any suggestions. 
 - responsivness in difrrent wiedthes and devices. 
 - It is accessable for any one.
-- The email input has a cool validation
+- The email input has a cool validation.
+- We can save the data from form inputs sio when the user reload the page the data do not get lost.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
