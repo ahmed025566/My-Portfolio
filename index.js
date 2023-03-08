@@ -9,12 +9,12 @@ function closeNav() {
 open.addEventListener('click', openNav);
 close.addEventListener('click', closeNav);
 const projects = [{
-  title: 'Tonic',
-  img: 'assets/images/Snapshoot Portfolio-1.png',
-  client: 'CANOPY',
-  role: 'Back End Dev',
-  year: '2015',
-  desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  title: 'To Do App',
+  img: 'assets/images/To Do.png',
+  client: 'Microverse',
+  role: 'Front End Dev',
+  year: '2023',
+  desc: 'To Do App; no accounts or sign-ups required.',
   tech: ['HTML', 'CSS', 'JavaScript'],
   button: 'See project',
   github: '#',
@@ -97,24 +97,24 @@ function createPopup1() {
   const popup = document.createElement('div');
   popup.className = 'popup';
   popup.innerHTML = `<div class="cadr">
-<button id="close-p" onclick="closeP1 ()"><img src="assets/images/Icon.png" alt="close"></button>
-<h2 class="project-title">Tonic</h2>
+<button id="close-p" onclick = "closeP1()"><img src="assets/images/Icon.png" alt="close"></button>
+<h2 class="project-title">To DO App</h2>
 <div class="details">
- <div class="name"><p class="project-name">CANBOY</p></div>
+ <div class="name"><p class="project-name">Microverse</p></div>
  <div class="circle-1"></div>
- <div class="role"><p class="project-role">Back End Dev</p></div>
+ <div class="role"><p class="project-role">Front End Dev</p></div>
  <div class="circle-2"></div>
- <div class="year"><p class="project-year">2015</p></div>
+ <div class="year"><p class="project-year">2023</p></div>
 </div>
-<img src="assets/images/Snapshoot Portfolio-1.png" alt="snapshot-portfolio">
-<p class="summary">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+<img src="assets/images/To Do App.png" alt="snapshot-portfolio">
+<p class="summary">To Do App; no accounts or sign-ups required.</p>
 <div class="languages">
     <div class="html"><p class="project-html">HTML</p></div>
     <div class="css"><p class="project-css">CSS</p></div>
     <div class="js"><p class="project-js">JavaScript</p></div>
   </div>
-  <button class="see-live"><img src="assets/images/live.png" alt="go-live">See live</button>
-  <button class="see-source"><img src="assets/images/github.png" alt="go-live">See Source</button>
+  <a href = "https://ahmed025566.github.io/To-Do-App/dist/"><button class="see-live"><img src="assets/images/live.png" alt="go-live">See live</button></a>
+  <a href = "https://github.com/ahmed025566/To-Do-App"><button class="see-source"><img src="assets/images/github.png" alt="go-live">See Source</button></a>
 </div>`;
   projectsContainer.append(popup);
 }
@@ -263,4 +263,4 @@ function inputData() {
   message.value = formData.msg;
 }
 window.onload = inputData();
-console.log(closeP4(), closeP3(), closeP2(), closeP1());
+// console.log(closeP4(), closeP3(), closeP2(), closeP1());
